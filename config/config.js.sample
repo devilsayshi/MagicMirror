@@ -54,8 +54,8 @@ let config = {
 					{
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "calendar-check",
-						url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
-					}
+						url: "https://calendar.google.com/calendar/ical/en-gb.indian%23holiday%40group.v.calendar.google.com/public/basic.ics	"				
+}
 				]
 			}
 		},
@@ -69,9 +69,9 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "current",
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "YOUR_OPENWEATHER_API_KEY"
+				location: "Thiruvananthapuram ",
+				locationID: "1254163", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				apiKey: "81813868de333864877588ea4ad6042f"
 			}
 		},
 		{
@@ -81,9 +81,9 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "forecast",
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "YOUR_OPENWEATHER_API_KEY"
+				location: "Thiruvananthapuram ",
+				locationID: "1254163", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				apiKey: "81813868de333864877588ea4ad6042f"
 			}
 		},
 		{
@@ -92,8 +92,8 @@ let config = {
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						title: "Asianet News",
+						url: "https://www.asianetnews.com/topic/rss"
 					}
 				],
 				showSourceTitle: true,

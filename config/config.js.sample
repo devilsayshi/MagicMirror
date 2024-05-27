@@ -54,7 +54,7 @@ let config = {
 					{
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "calendar-check",
-						url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
+						url: "https://calendar.google.com/calendar/ical/adhithyans.b21ec1109%40mbcet.ac.in/public/basic.ics"
 					}
 				]
 			}
@@ -69,9 +69,9 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "current",
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "YOUR_OPENWEATHER_API_KEY"
+				location: "Thiruvananthapuram",
+				locationID: "1254163", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				apiKey: "81813868de333864877588ea4ad6042f"
 			}
 		},
 		{
@@ -81,19 +81,28 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "forecast",
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "YOUR_OPENWEATHER_API_KEY"
+				location: "Thiruvananthapuram",
+				locationID: "1254163", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				apiKey: "81813868de333864877588ea4ad6042f"
 			}
 		},
+
+    {
+		module: 'MMM-YouTube-API',
+		position: 'top_center',
+                config: {
+                    videoID:'2LeOH9AGJQM'
+                }
+    },
+
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						title: "Times of India",
+						url: "https://timesofindia.indiatimes.com/rssfeeds/878156304.cms"
 					}
 				],
 				showSourceTitle: true,

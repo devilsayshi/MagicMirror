@@ -47,7 +47,7 @@ let config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "INDIAN HOLIDAYS",
 			position: "top_left",
 			config: {
 				calendars: [
@@ -87,13 +87,7 @@ let config = {
 			}
 		},
 
-    {
-		module: 'MMM-YouTube-API',
-		position: 'top_center',
-                config: {
-                    videoID:'2LeOH9AGJQM'
-                }
-    },
+   
 
 		{
 			module: "newsfeed",

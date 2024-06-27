@@ -86,7 +86,18 @@ let config = {
 				apiKey: "81813868de333864877588ea4ad6042f"
 			}
 		},
+ {
+  module: "MMM-YouTube",
+  position: "top_right",
+},
 
+{
+  module: "MMM-Spotify",
+  position: "bottom_left",
+  config: {
+    debug: false,
+  }
+}
    
 
 		{

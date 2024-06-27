@@ -41,7 +41,7 @@ Module.register("calendar", {
 		calendars: [
 			{
 				symbol: "calendar-alt",
-				url: "https://calendar.google.com/calendar/ical/adhithyans.b21ec1109%40mbcet.ac.in/public/basic.ics"
+				url: ""
 			}
 		],
 		customEvents: [

@@ -54,7 +54,7 @@ let config = {
 					{
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/ical/chrispiuson7%40gmail.com/public/basic.ics"
+						url: "https://calendar.google.com/calendar/ical/adhithyans003%40gmail.com/public/basic.ics"
 					}
 				]
 			}

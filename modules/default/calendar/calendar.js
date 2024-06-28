@@ -41,7 +41,7 @@ Module.register("calendar", {
 		calendars: [
 			{
 				symbol: "calendar-alt",
-				url: "https://calendar.google.com/calendar/ical/chrispiuson7%40gmail.com/public/basic.ics"
+				url: "https://calendar.google.com/calendar/ical/adhithyans003%40gmail.com/public/basic.ics"
 			}
 		],
 		customEvents: [
